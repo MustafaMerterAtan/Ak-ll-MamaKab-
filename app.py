@@ -4,7 +4,7 @@ import websockets
 
 st.set_page_config(page_title="Kedi MAMA Kontrol Paneli", layout="centered")
 
-ws_url = "192.168.137.17:81"  # 🔁 ESP32'nin IP adresini buraya yaz
+ws_url = "192.168.137.17"  # 🔁 ESP32'nin IP adresini buraya yaz
 
 async def send_message(message):
     try:
